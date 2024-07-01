@@ -1,4 +1,4 @@
-module github.com/linmadan/egglib-go
+module github.com/stevechan1993/egglib-go-v2
 
 go 1.15
 
@@ -22,5 +22,3 @@ require (
 	go.etcd.io/etcd v3.3.25+incompatible // indirect
 	honnef.co/go/tools v0.0.1-2020.1.5 // indirect
 )
-
-replace github.com/linmadan/egglib-go => ../egglib-go
