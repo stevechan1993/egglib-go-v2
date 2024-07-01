@@ -2,7 +2,7 @@ package filters
 
 import (
 	"github.com/beego/beego/v2/server/web/context"
-	"github.com/linmadan/egglib-go/log"
+	"github.com/stevechan1993/egglib-go-v2/log"
 )
 
 func CreateRequstLogFilter(logger log.Logger) func(ctx *context.Context) {

@@ -1,11 +1,12 @@
 package pg
 
 import (
-	"github.com/go-pg/pg/v10"
-	"github.com/linmadan/egglib-go/core/application"
-	"github.com/linmadan/egglib-go/message/receiver/local_message/pg/models"
-	pgTransaction "github.com/linmadan/egglib-go/transaction/pg"
 	"time"
+
+	"github.com/go-pg/pg/v10"
+	"github.com/stevechan1993/egglib-go-v2/core/application"
+	"github.com/stevechan1993/egglib-go-v2/message/receiver/local_message/pg/models"
+	pgTransaction "github.com/stevechan1993/egglib-go-v2/transaction/pg"
 )
 
 type ReceivedMessageStore struct {

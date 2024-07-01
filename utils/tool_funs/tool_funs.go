@@ -2,9 +2,10 @@ package tool_funs
 
 import (
 	"fmt"
-	"github.com/linmadan/egglib-go/utils/string_convert"
 	"reflect"
 	"strings"
+
+	"github.com/stevechan1993/egglib-go-v2/utils/string_convert"
 )
 
 func ParseStructTag(tagStr string, supportTag map[string]int) (map[string]bool, map[string]string, error) {

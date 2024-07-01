@@ -2,10 +2,11 @@ package sarama
 
 import (
 	"context"
-	"github.com/Shopify/sarama"
-	"github.com/linmadan/egglib-go/log"
 	"strings"
 	"sync"
+
+	"github.com/Shopify/sarama"
+	"github.com/stevechan1993/egglib-go-v2/log"
 )
 
 func StartConsume(kafkaHosts string, groupId string, messageHandlerMap map[string]func(message *sarama.ConsumerMessage) error, logger log.Logger) error {

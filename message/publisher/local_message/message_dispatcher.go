@@ -2,14 +2,15 @@ package local_message
 
 import (
 	"fmt"
-	"github.com/linmadan/egglib-go/core/application"
-	"github.com/linmadan/egglib-go/log"
-	"github.com/linmadan/egglib-go/message/publisher/local_message/beego"
-	"github.com/linmadan/egglib-go/message/publisher/local_message/pg"
-	"github.com/linmadan/egglib-go/message/publisher/local_message/sarama"
-	beegoTransaction "github.com/linmadan/egglib-go/transaction/beego"
-	pgTransaction "github.com/linmadan/egglib-go/transaction/pg"
 	"time"
+
+	"github.com/stevechan1993/egglib-go-v2/core/application"
+	"github.com/stevechan1993/egglib-go-v2/log"
+	"github.com/stevechan1993/egglib-go-v2/message/publisher/local_message/beego"
+	"github.com/stevechan1993/egglib-go-v2/message/publisher/local_message/pg"
+	"github.com/stevechan1993/egglib-go-v2/message/publisher/local_message/sarama"
+	beegoTransaction "github.com/stevechan1993/egglib-go-v2/transaction/beego"
+	pgTransaction "github.com/stevechan1993/egglib-go-v2/transaction/pg"
 )
 
 var dispatcher *MessageDispatcher

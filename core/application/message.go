@@ -1,8 +1,9 @@
 package application
 
 import (
-	"github.com/linmadan/egglib-go/utils/snowflake"
 	"time"
+
+	"github.com/stevechan1993/egglib-go-v2/utils/snowflake"
 )
 
 type Message struct {

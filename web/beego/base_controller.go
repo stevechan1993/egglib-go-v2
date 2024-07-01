@@ -2,8 +2,8 @@ package beego
 
 import (
 	"github.com/beego/beego/v2/server/web"
-	"github.com/linmadan/egglib-go/utils/json"
-	"github.com/linmadan/egglib-go/web/beego/utils"
+	"github.com/stevechan1993/egglib-go-v2/utils/json"
+	"github.com/stevechan1993/egglib-go-v2/web/beego/utils"
 )
 
 type (

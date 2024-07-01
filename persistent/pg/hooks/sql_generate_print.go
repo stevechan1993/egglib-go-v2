@@ -2,8 +2,9 @@ package hooks
 
 import (
 	"context"
+
 	"github.com/go-pg/pg/v10"
-	"github.com/linmadan/egglib-go/log"
+	"github.com/stevechan1993/egglib-go-v2/log"
 )
 
 type SqlGeneratePrintHook struct {

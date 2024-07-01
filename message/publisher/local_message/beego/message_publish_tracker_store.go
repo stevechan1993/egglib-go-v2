@@ -2,8 +2,8 @@ package beego
 
 import (
 	"github.com/beego/beego/v2/client/orm"
-	"github.com/linmadan/egglib-go/message/publisher/local_message/beego/models"
-	"github.com/linmadan/egglib-go/transaction/beego"
+	"github.com/stevechan1993/egglib-go-v2/message/publisher/local_message/beego/models"
+	"github.com/stevechan1993/egglib-go-v2/transaction/beego"
 )
 
 type MessagePublishTrackerStore struct {

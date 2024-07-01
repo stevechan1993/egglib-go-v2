@@ -1,9 +1,10 @@
 package beego
 
 import (
-	"github.com/linmadan/egglib-go/utils/tool_funs"
 	"reflect"
 	"strings"
+
+	"github.com/stevechan1993/egglib-go-v2/utils/tool_funs"
 )
 
 var supportTag = map[string]int{

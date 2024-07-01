@@ -1,10 +1,11 @@
 package pg
 
 import (
-	"github.com/go-pg/pg/v10"
-	"github.com/linmadan/egglib-go/message/publisher/local_message/pg/models"
-	pgTransaction "github.com/linmadan/egglib-go/transaction/pg"
 	"time"
+
+	"github.com/go-pg/pg/v10"
+	"github.com/stevechan1993/egglib-go-v2/message/publisher/local_message/pg/models"
+	pgTransaction "github.com/stevechan1993/egglib-go-v2/transaction/pg"
 )
 
 type MessagePublishTrackerStore struct {

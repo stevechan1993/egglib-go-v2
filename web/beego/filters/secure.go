@@ -6,8 +6,6 @@ import (
 	"encoding/hex"
 	"errors"
 	"fmt"
-	"github.com/beego/beego/v2/server/web/context"
-	"github.com/google/uuid"
 	"hash/crc32"
 	"io"
 	"io/ioutil"
@@ -15,6 +13,9 @@ import (
 	"strconv"
 	"strings"
 	"time"
+
+	"github.com/beego/beego/v2/server/web/context"
+	"github.com/google/uuid"
 )
 
 const (

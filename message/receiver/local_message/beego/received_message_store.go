@@ -1,11 +1,12 @@
 package beego
 
 import (
-	"github.com/beego/beego/v2/client/orm"
-	"github.com/linmadan/egglib-go/core/application"
-	"github.com/linmadan/egglib-go/message/receiver/local_message/beego/models"
-	"github.com/linmadan/egglib-go/transaction/beego"
 	"time"
+
+	"github.com/beego/beego/v2/client/orm"
+	"github.com/stevechan1993/egglib-go-v2/core/application"
+	"github.com/stevechan1993/egglib-go-v2/message/receiver/local_message/beego/models"
+	"github.com/stevechan1993/egglib-go-v2/transaction/beego"
 )
 
 type ReceivedMessageStore struct {

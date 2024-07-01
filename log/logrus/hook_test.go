@@ -1,9 +1,10 @@
 package logrus
 
 import (
-	"github.com/linmadan/egglib-go/log"
 	"testing"
 	"time"
+
+	"github.com/stevechan1993/egglib-go-v2/log"
 )
 
 const (

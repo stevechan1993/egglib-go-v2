@@ -2,12 +2,13 @@ package local_message
 
 import (
 	"fmt"
-	"github.com/linmadan/egglib-go/core/application"
-	"github.com/linmadan/egglib-go/message/receiver/local_message/beego"
-	"github.com/linmadan/egglib-go/message/receiver/local_message/pg"
-	"github.com/linmadan/egglib-go/message/receiver/local_message/sarama"
-	beegoTransaction "github.com/linmadan/egglib-go/transaction/beego"
-	pgTransaction "github.com/linmadan/egglib-go/transaction/pg"
+
+	"github.com/stevechan1993/egglib-go-v2/core/application"
+	"github.com/stevechan1993/egglib-go-v2/message/receiver/local_message/beego"
+	"github.com/stevechan1993/egglib-go-v2/message/receiver/local_message/pg"
+	"github.com/stevechan1993/egglib-go-v2/message/receiver/local_message/sarama"
+	beegoTransaction "github.com/stevechan1993/egglib-go-v2/transaction/beego"
+	pgTransaction "github.com/stevechan1993/egglib-go-v2/transaction/pg"
 )
 
 type Receiver struct {

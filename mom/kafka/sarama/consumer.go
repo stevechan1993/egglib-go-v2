@@ -2,7 +2,7 @@ package sarama
 
 import (
 	"github.com/Shopify/sarama"
-	"github.com/linmadan/egglib-go/log"
+	"github.com/stevechan1993/egglib-go-v2/log"
 )
 
 type Consumer struct {
